@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    font-family:Outfit, Young-Serif ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+
+    max-width: 500px;
+    margin: 3.5rem auto;
+    background-color:hsl(0, 0%, 100%) ;
+    padding: 2.5rem;
+    text-align: left;
+    border-radius: 20px;
+
+}
+img{
+    
+    max-width:94%;
+    height:auto;
+    border-radius: 12px;
+    
+}
+
+h1{
+    padding: 14px  14px 14px 0;
+    
+}
+.card{
+    padding: 15px;
+}
