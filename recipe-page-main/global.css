@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
+    text-align: justify;
 }
 
 .container{
@@ -35,6 +36,54 @@ h1{
     padding: 14px  14px 14px 0;
     
 }
-.card{
-    padding: 15px;
+
+h2{
+    padding: 5px  0px 14px 0;
+    color: hsl(14, 45%, 36%); 
+    text-align: left;
 }
+
+
+.card{
+    padding: 3rem 2.5rem ;
+    line-height: 1.8rem;
+    background-color:hsl(330, 100%, 98%) ;
+    border-radius: 12px;
+    margin: 2rem;
+}
+
+.card h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.card2{
+    padding: 1rem 1.5rem;
+    line-height: 1.8rem;
+    border-radius: 12px;
+    
+}
+
+.card3{
+    padding: 1rem 1.5rem;
+    line-height: 1.8rem;
+    border-radius: 12px;
+}
+
+.card4{
+    padding: 1rem 1.5rem;
+    line-height: 1.8rem;
+    border-radius: 12px;
+    display: table;
+}
+
+table{
+    width: 100%;
+    margin-bottom : 0.5rem;
+    table-layout: fixed;
+    text-align: center;
+}
+td, th {
+    padding: 0.7rem;
+    margin: 0;
+    text-align: left;
+  }
